@@ -22,8 +22,6 @@ export async function createBookController(req: Request, res: Response) {
 }
 
 
-
-
 export async function listBooksController(req: Request, res: Response) {
     try {
         const { author, title } = req.query;
